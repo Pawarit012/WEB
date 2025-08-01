@@ -1,0 +1,106 @@
+body {
+      font-family: "Tahoma", sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fff7f0;
+    }
+    header {
+      background-color: #b22222;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #ffcc99;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #663300;
+      font-weight: bold;
+    }
+    .hero {
+      background-image: url('https://i.imgur.com/ef1U8Vk.jpg');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      padding: 100px 20px;
+      text-align: center;
+    }
+    .section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .menu-items {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .menu-card {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      width: 200px;
+      padding: 10px;
+    }
+    .menu-card img {
+      width: 100%;
+      border-radius: 6px;
+    }
+    footer {
+      background-color: #b22222;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+}
+
+.item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 150px;
+  text-align: center;
+}
+
+button {
+  background: #e60000;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #cc0000;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+.remove-btn {
+  background: #555;
+  margin-left: 10px;
+  padding: 4px 8px;
+}
+
+.remove-btn:hover {
+  background: #333;
+}
