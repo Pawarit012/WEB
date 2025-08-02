@@ -1,17 +1,29 @@
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+
 }
 nav {
     padding: 1rem;
     background-color: #333;
+}
+
+
+.nav-con {
     display: flex;
     justify-content: space-between;
-    
-
-    
 }
+
+
 .logo a {
     font-size: 2rem;
     color: #fff;
@@ -32,6 +44,75 @@ nav {
     margin: 1rem;
     color: #fff;
     text-decoration: none;
+}
+.hero {
+    background-color: #f0f0f0;
+}
 
+.hero-con {
+  display: flex;
+  
+}
 
+.hero-info {
+  width: 100%;
+  padding: 2rem;
+}
+
+.hero-info h3 {
+    font-size: 2rem;
+}
+
+.hero-info p {
+    margin: 1rem 0 ;
+}
+
+.hero-info .hero-btn {
+    display: inline-block;
+    background-color: orange;
+    color: #fff;
+    padding: .5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.hero-img img {
+  width: 100%;
+  padding: 2rem;
+}
+
+.hero-img {
+    width: 100%;
+}
+
+.blog-con {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2rem;
+    
+}
+.blog-title {
+    margin: 2rem 0;
+}
+
+.blog-item img {
+    width: 100%;
+
+}
+.blog-item h4 {
+    margin-top: 1rem;
+
+}
+
+.blog-item p {
+    margin: 1rem 0;
+}
+
+.blog-item a {
+    display: inline-block;
+    color: #fff;
+    background-color: orange;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: .5rem 1rem;
 }
